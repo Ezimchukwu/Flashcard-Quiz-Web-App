@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Flashcard Quiz</h1>
+    </header>
+
+    <!-- Main Content Area -->
+    <main class="container">
+        <!-- Flashcard Display Section -->
+        <section class="flashcard-container">
+            <div class="flashcard" id="flashcard">
+                <!-- Front Side (Question) -->
+                <div class="flashcard-front active">
+                    <div class="card-content">
+                        <h2>Question</h2>
+                        <p id="question-text">Loading first question...</p>
+                    </div>
+                </div>
+                
+                <!-- Back Side (Answer) -->
+                <div class="flashcard-back">
+                    <div class="card-content">
+                        <h2>Answer</h2>
+                        <p id="answer-text">Answer will appear here</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Control Buttons -->
+        <section class="controls">
+            <div class="primary-controls">
+                <button id="flip-btn" class="btn btn-primary">Show Answer</button>
+                <button id="next-btn" class="btn btn-secondary">Next Card</button>
+            </div>
+            
+            <!-- Optional Scoring Buttons -->
+            <div class="scoring-controls" id="scoring-controls">
+                <button id="correct-btn" class="btn btn-success">Mark Correct</button>
+                <button id="wrong-btn" class="btn btn-error">Mark Wrong</button>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="progress-info">
+            <span id="progress-text">Card 0 of 0</span>
+        </div>
+        <div class="score-info">
+            <span id="score-text">Score: 0/0</span>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
