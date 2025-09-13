@@ -1,11 +1,1 @@
-The Expense Tracker is a simple but powerful front-end web app where users can:
-
-Record every spending (e.g., food, transport, shopping).
-
-View all expenses in a clean list.
-
-See their total spending and breakdown by category.
-
-Keep data even after refreshing the page (using localStorage).
-
-➡️ Goal: Help people monitor where their money goes in real-time without needing a backend.
+A lightweight, client-side flashcard app built with HTML, CSS, and vanilla JavaScript that shows one card at a time, lets the user flip to see the answer, move through a deck, optionally mark correct/wrong for scoring, and persist progress in localStorage.
